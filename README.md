@@ -1,5 +1,7 @@
 # My Flutter App
 
+[![Flutter CI](https://github.com/EkhsanFitri94/my_flutter_app/actions/workflows/ci.yml/badge.svg)](https://github.com/EkhsanFitri94/my_flutter_app/actions/workflows/ci.yml)
+
 A clean Flutter starter built to become a finished personal app for Ekhsan Fitri.
 
 ## Current Status
@@ -22,6 +24,10 @@ Turn this into a personal dashboard or portfolio companion app with:
 - `lib/main.dart` with a responsive starter UI
 - `analysis_options.yaml` for linting
 - `.gitignore` for Flutter build output
+
+## Automation
+
+- GitHub Actions runs `flutter pub get` and `flutter test` on every push and pull request.
 
 ## Next Steps
 
